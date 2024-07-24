@@ -25,6 +25,3 @@ O **React Maps Lister** é um projeto que permite visualizar os 10 lugares mais 
 - **Navegador com suporte a Geolocalização**: Para obter a localização atual do usuário.
 - **Chave da API do Google Maps**: Necessária para acessar os serviços de mapas e direções do Google.
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
