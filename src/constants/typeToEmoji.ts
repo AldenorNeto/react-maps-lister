@@ -124,3 +124,12 @@ export const typeToEmoji: { [key: string]: string } = {
   sublocality: "🏘️",
   political: "🏛️",
 };
+
+export const getEmojiForPlace = (types: string[]): string => {
+  for (const type of types) {
+    if (typeToEmoji[type]) {
+      return typeToEmoji[type];
+    }
+  }
+  return "🏠";
+};
